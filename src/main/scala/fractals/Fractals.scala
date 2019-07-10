@@ -138,8 +138,6 @@ object Fractals {
 
   // Commit 1
   // Commit 2
-  // Commit 3
-  // Commit 4
   def sierpinskiCarpet(currentDepth: Int, iterations: Int, length: Int, bottomLeftPoint: Point): List[LineSegment] = {
 
     // Commit 5
