@@ -142,6 +142,7 @@ object Fractals {
   // Commit 4
   def sierpinskiCarpet(currentDepth: Int, iterations: Int, length: Int, bottomLeftPoint: Point): List[LineSegment] = {
 
+    // Commit 5
     def getActualBottomLeftPoint(currentDepth: Int, bottomLeftPoint: Point) = {
       if(currentDepth == 0) {
         Point(length / 3, length * 2 / 3)
